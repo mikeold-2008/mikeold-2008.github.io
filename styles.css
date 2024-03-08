@@ -13,9 +13,10 @@
 
 .pokemon-blurb{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "head head head";
+    column-gap: 20px;
 }
 
 #article-header{
